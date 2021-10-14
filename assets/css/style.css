@@ -1,0 +1,141 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif; 
+    color:#9d9f9f;
+}
+i{
+    font-size:30px;
+}
+
+/*====================
+Header
+====================== */
+header{
+    background: url("../img/Rad1siedphoto-276517.jpeg") center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+h1{
+    position:absolute;
+    color:gray;
+    bottom:50%;
+    left:10%;
+    font-size:20px;
+}
+header h1 span{
+    font-size:30px;
+    position:absolute;
+    bottom:100px;
+    left:30%;
+   
+}
+/*====================
+aside
+====================== */
+aside{
+    background-color: #333;
+    opacity: 0.5;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    bottom: 0;
+} 
+aside p{
+    position: absolute;
+    font-size:25px;
+    bottom:20%;
+    left:3%;
+}
+aside ul{
+list-style: none;
+position: absolute;
+bottom:30%;
+right: 20%;
+}
+aside ul li{
+margin-left: 60px;
+display: inline-block;
+}
+aside ul li a{
+  text-decoration: none;
+    }
+    aside ul li a:hover{
+       color:goldenrod
+          }
+/*====================
+Main
+====================== */
+main h2{
+    text-align:center;
+    color:tomato;
+    font-size:40px;
+    margin-top: 40px;
+}
+main section div{
+    text-align: center;
+    margin: 20px 0px;
+    }
+    main section div img{
+        width: 350px;
+    }
+    main section div img:nth-of-type(2){
+        margin: 0px 40px;
+    }
+    main article h3{
+        text-align: center;
+        font-size: 30px;
+        color: tomato;
+        font-family: 'Cinzel', serif;
+    margin:80px 0px;
+    }
+    main article ul{
+        margin-bottom: 80px;
+    }
+    main article ul li{
+    padding:20px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    }
+    main article ul li:after{
+    content: "Sold Out ";
+    color:red
+    }
+    main article ul li:nth-of-type(4)::after{
+        content: "Only 4 Spot Available";
+        color:red
+    }
+    main article ul li:nth-of-type(5)::after{
+        content: "Available";
+        color:rgb(33, 118, 13);
+    }
+    main article ul li:nth-of-type(6)::after{
+        content: "Available";
+        color:rgb(33, 118, 13);
+    }
+
+main section div img:hover{
+    box-shadow: 0 0 5px 2px rgb(45, 44, 44);
+}
+
+    /*====================
+footer
+
+====================== */
+footer{
+height:100px;
+    position: relative;
+    border-top: 1px solid gold;
+    
+}
+footer nav ul{
+    letter-spacing:40px;
+    position: absolute;
+    bottom:10%;
+    padding:20px;
+}
+footer nav ul li{
+    display: inline-block;
+}
